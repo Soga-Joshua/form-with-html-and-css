@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+body{
+   font-family: 'Poppins', sans-serif;
+   background-color:rgba(27, 27, 50, 0.8);
+}
+.formwrapper{
+ color: #f3f3f3;
+  font-size: 20px;
+  position: relative;
+}
+.formwrapper::before{
+  content:'';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+  background-image:  url("https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header{
+  text-align: center;
+}
+.formback{
+  background-color: #1b1b32;
+  width: 50vw;
+  margin: 30px auto;
+  border-radius: 5px;
+  padding: 10px 40px;
+  position: relative;
+}
+.form-items{
+  margin: 50px;
+  color: white;
+}
+.form-items input{
+  width: 40vw;
+  height: 6vh;
+  border-radius: 3px;
+  border: none;
+  margin-top: 5px;
+}
+#dropdown{
+  width: 40vw;
+  height: 6vh;
+  border-radius: 3px;
+}
+.radimensions, .checkboxsizing{
+width: 30px;
+  height: 20px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.addedp{
+  margin-left: 47px;
+}
+.Yesradio{
+  font-size: 20px
+}
+.textarea, .submitbutton{
+  width: 44vw;
+  margin: 20px auto;
+  height: 30vh;
+}
+textarea::placeholder{
+  font-size: 25px;
+}
+textarea{
+  width: 100%;
+  height: 100%
+}
+ button{
+  width: 45vw;
+  margin: 20px auto;
+  background-color: #37af65;
+  color: white;
+   height: 8vh;
+   border: 0px;
+   border-radius: 3px;
+}

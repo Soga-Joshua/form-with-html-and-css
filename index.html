@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="formwrapper">
+    <div class="header">
+      <h1 id="title">
+      Soga's Survey Form
+    </h1>
+    <p id="description"><em>
+      Thank you for always supporting my projects!</em></p>
+    </div>
+    
+    <div class="formback">    
+      <form id="survey-form">
+        <div class="form-items">
+          <label for="name" id="name-label">Name<br></label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-items">
+          <label for="email" id="email-label">Email<br></label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-items">
+          <label for="number" id="number-label">Age<span>(Optional)</span><br></label>
+          <input type="number" id="number" min="1" max="120" placeholder="Age" required>
+        </div>
+        <div class="form-items">
+          <label for="dropdown" id="dropdown-label">Which option best describes your current role?<br></label>
+          <select id="dropdown" >
+            <option value="student">Student</option>
+            <option value="Medical-Doctor">Medical Doctor</option>
+            <option value="Corper">Corper</option>
+            <option value="techie">Techie</option>
+          </select>
+        </div>
+        <p class="addedp">Would you recommend me to your friends?</p>
+        <div class="radios">
+          <div class="Yesradio">
+             <label for="Yes"><input type="radio" name="wouldrecommend" id="Yes" value="Yes" class="radimensions">Yupe</label>
+          </div>
+          <div class="noradio">
+            <label for="No"><input type="radio" name="wouldrecommend" id="No" value="No" class="radimensions">Nope</label>
+          </div>
+          <div class="notsureradio">
+            <label for="not-sure"><input type="radio" name="wouldrecommend" id="not-sure" value="not-sure" class="radimensions">Maybe</label>
+          </div>
+          <div class="form-items">
+            <p>What would you like to see improved? <span>(check all that apply)</span></p>
+            
+          </div> <!--form-items checkbox end-->
+          <div class="cssdiv">
+            <label for="CSS"><input type="checkbox" name="prefer" id="CSS" value="CSS" class="checkboxsizing">CSS</label>
+          </div>
+          <div class="cssdiv">
+            <label for="html5"><input type="checkbox" name="prefer" id="html5" value="html5" class="checkboxsizing">html5</label>
+          </div>
+          <div class="cssdiv"><label for="javascript"><input type="checkbox" name="prefer" id="javascript" value="javascript" class="checkboxsizing">Javascript</label></div>
+          <div class="cssdiv">
+            <label for=""><input type="checkbox" name="prefer" id="Python" value="Python" class="checkboxsizing">Python</label>
+          </div>        
+       </div>
+        <div class="textarea">
+          <textarea placeholder="Type in your suggestions for me in here"></textarea>
+        </div>
+        <div class="submitbutton">
+          <button id="submit">Submit</button>
+        </div>
+       
+       
+      </form>
+    </div>
+  </div><!--   formwrapper end   -->
+
+   
+</body>
+</html>
